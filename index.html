@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--I, Aaron Proctor, student number 000390303, certify that all code submitted
+    is my own work; that I have not copied it from any other source.
+    I also certify that I have not allowed my work to be copied by others.-->
+
+<!--This is a shopping list which gets some store information, validates it and then starts a list builder
+    This is the first page where information is entered about the store-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery Store Information</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <style>
+        body{
+            background-image: url("images/bg.jpg");
+        }
+        .tableCenter{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            border: 3px solid black;
+            margin-top:-3px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "center">
+        <div class = "whiteBox">
+            <h2 class = "centerText">Welcome to the Shopping List Builder!</h2>
+            <p class = "centerText">Please enter the information below</p>
+        </div>
+        <form action="formValidation.php" method="GET">
+            <table class = "tableCenter">
+                <tr>
+                    <td>Store Name:</td>
+                    <td><input type="text" name="storeName" title="One or more capitalized words or integers, seperated by spaces"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" name="address" title=" A number followed by a capitalized word, followed by a legal abbreviation (st., rd., ave., or blvd.) and then an optional direction (E, N, W, S) "></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text" name="city" title="A single, capitalized word with no digits or special charact"></td>
+                </tr>
+                <tr>
+                    <td>Postal Code:</td>
+                    <td><input type="text" name="postal" title="Correct format (A0A 0A0)"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+</body>
+</html>
