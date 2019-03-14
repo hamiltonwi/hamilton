@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hamilton Ward Info</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <script type="text/javascript" src="hamCensusData.js"></script>
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid header">
+    <nav class="navbar navbar-expand-lg navbar-light header-content">
+        <a class="navbar-brand custom-text1" href="#Home">Hamilton Ward Info</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item custom-text">
+                    <a class="nav-link" href="#Map">Map</a>
+                </li>
+                <li class="nav-item custom-text">
+                    <a class="nav-link" href="#Search">Search</a>
+                </li>
+                <li class="nav-item custom-text">
+                    <a class="nav-link" href="#Contact Us">Contact Us</a>
+                </li>
+        </div>
+    </nav>
+</div>
+
+<div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-w1-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Ward 1</a>
+      <a class="nav-link" id="v-pills-w2-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Ward 2</a>
+      <a class="nav-link" id="v-pills-w3-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Ward 3</a>
+      <a class="nav-link" id="v-pills-w4-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 4</a>
+      <a class="nav-link" id="v-pills-w5-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 5</a>
+      <a class="nav-link" id="v-pills-w6-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 6</a>
+      <a class="nav-link" id="v-pills-w7-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 7</a>
+      <a class="nav-link" id="v-pills-w8-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 8</a>
+      <a class="nav-link" id="v-pills-w9-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 9</a>
+      <a class="nav-link" id="v-pills-w10-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 10</a>
+      <a class="nav-link" id="v-pills-w11-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 11</a>
+      <a class="nav-link" id="v-pills-w12-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 12</a>
+      <a class="nav-link" id="v-pills-w13-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 13</a>
+      <a class="nav-link" id="v-pills-w14-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 14</a>
+      <a class="nav-link" id="v-pills-w15-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ward 15</a>
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-w1" role="tabpanel" aria-labelledby="v-pills-w1-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w2" role="tabpanel" aria-labelledby="v-pills-w2-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w3" role="tabpanel" aria-labelledby="v-pills-w3-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w4-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w5" role="tabpanel" aria-labelledby="v-pills-w5-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w6-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w7-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w8-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w9-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w10-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w11-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w12-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w13-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w14-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-w4" role="tabpanel" aria-labelledby="v-pills-w15-tab">...</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
