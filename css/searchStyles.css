@@ -1,0 +1,14 @@
+td {
+    padding-bottom: 0.5em;
+}
+#Questionnaire {
+    border: 1px solid black;
+    padding: 15px;
+}
+#selectedWardInfo {
+    border: 1px solid black;
+    padding: 15px;
+}
+#selectedWardInfo h2 {
+    text-align: center;
+}
