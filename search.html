@@ -8,7 +8,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/searchStyles.css">
     <script type="text/javascript" src="hamCensusData.js"></script>
+
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid header">
@@ -33,5 +35,79 @@
     </nav>
 </div>
 
+<div id="mainContent" class="container">
+<p class="lead">Use this tool too help you decide where in hamilton is best for you.</p>
+<div class="row">
+<div class="col-4" id="Questionnaire">
+    <form>
+        <table>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                        <input type="radio" class="form-check-input"  name="age" value="18-35">18-35
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input"  name="age" value="36-64">36-64
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input"  name="age" value="65+">65+
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Martial Status</td>
+                <td>
+                    <div class="form-group">
+                    <select name="maritalStatus" class="form-control">
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="inRelationship">In Relationship</option>
+                    </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Yearly Income</td>
+                <td>
+                    <div class="form-group">
+                    <select name="income" class="form-control">
+                        <option value="30000">Less the $30,000</option>
+                        <option value="30000-700000">between $30,000 and $70,000</option>
+                        <option value="70000">Over $70,000</option>
+                    </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Are you a visible minority</td>
+                <td>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                        <input type="radio" class="form-check-input"  name="minority" value="yes">Yes
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input"  name="minority" value="no">No
+                        </label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <button class="btn btn-success" type="button">GO!</button>
+</div>
+<div class="col-md-8" id="selectedWardInfo">
+    <h2>Your search results!</h2>
+</div>
+</div> <!-- end of first row div -->
+</div> <!-- end of main content div -->
 </body>
 </html>
