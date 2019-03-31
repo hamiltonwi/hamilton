@@ -35,28 +35,48 @@
 </div>
 
 <div>
-  <ul class="list-group">
-    <a href="#" data-toggle="collapse" data-target="#demo" class="list-group-item list-group-item-action list-group-item-success active">Ward 1</a>
-    <div id ="demo" class="collapse">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <div id="accordion">
+
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">Ward 2</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 3</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 4</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 5</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 6</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 7</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 8</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 9</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 10</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 11</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 12</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 13</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 14</a>
-    <a href="#" class="list-group-item list-group-item-action">Ward 15</a>
-  </ul>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 
@@ -66,4 +86,3 @@
 </footer>
 </body>
 </html>
-
