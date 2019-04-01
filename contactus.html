@@ -8,7 +8,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
-    <script type="text/javascript" src="hamCensusData.js"></script>
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid header">
@@ -32,6 +31,30 @@
         </div>
     </nav>
 </div>
+
+<form action="mailto:HamiltonWardInfo@gmail.com" id="commentForm" method="post" enctype="text/plain">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label>Name:</label>
+    <input class="form-control">
+  </div>
+  <div class="form-group">
+    <label>Comment:</label>
+    <textarea rows="4" cols="50" name="comment">
+        Enter text here...
+    </textarea>
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+<footer class="page-footer blue text-center footer-color">
+    <img src="images/HWILogoIcon.png" class="img-fluid" alt="Responsive image">
+    <div class="footer-copyright text-center py-3" >© 2019 Copyright: Hamilton Ward Info Inc.</div>
+</footer>
+
 
 </body>
 </html>
