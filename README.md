@@ -1,5 +1,5 @@
 # Hamilton Ward Info Website
 
-<img src="Ward Map Images/HWIBetter.png"></img>
+<img src="images/HWILogo.png"></img>
 
 https://wardinfo.github.io/hamilton/
