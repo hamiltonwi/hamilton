@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/searchStyles.css">
     <script type="text/javascript" src="hamCensusData.js"></script>
+    <script type="text/javascript" src="js/Search.js"></script>
 
 </head>
 <body>
@@ -46,17 +47,17 @@
                 <td>
                     <div class="form-check">
                         <label class="form-check-label">
-                        <input type="radio" class="form-check-input"  name="age" value="18-35">18-35
+                        <input type="radio" class="form-check-input"  id="age" name="age" value="18-35">18-35
                         </label>
                     </div>
                     <div class="form-check">
                         <label class="form-check-label">
-                            <input type="radio" class="form-check-input"  name="age" value="36-64">36-64
+                            <input type="radio" class="form-check-input"  id="age" name="age" value="36-64">36-64
                         </label>
                     </div>
                     <div class="form-check">
                         <label class="form-check-label">
-                            <input type="radio" class="form-check-input"  name="age" value="65+">65+
+                            <input type="radio" class="form-check-input"  id="age" name="age" value="65+">65+
                         </label>
                     </div>
                 </td>
@@ -65,7 +66,7 @@
                 <td>Martial Status</td>
                 <td>
                     <div class="form-group">
-                    <select name="maritalStatus" class="form-control">
+                    <select name="maritalStatus" id="maritalStatus" class="form-control">
                         <option value="single">Single</option>
                         <option value="married">Married</option>
                         <option value="inRelationship">In Relationship</option>
@@ -77,10 +78,10 @@
                 <td>Yearly Income</td>
                 <td>
                     <div class="form-group">
-                    <select name="income" class="form-control">
-                        <option value="30000">Less the $30,000</option>
-                        <option value="30000-700000">between $30,000 and $70,000</option>
-                        <option value="70000">Over $70,000</option>
+                    <select name="income" id="income" class="form-control">
+                        <option value="40000">Less the $40,000</option>
+                        <option value="40000-800000">between $40,000 and $80,000</option>
+                        <option value="80000">Over $80,000</option>
                     </select>
                     </div>
                 </td>
@@ -100,12 +101,34 @@
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td>What level of education do you have?</td>
+                <td>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input"  id="education" name="education" value="high">High-school or lower
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input"  id="education" name="education" value="college">College
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input"  id="education" name="education" value="uni">University
+                        </label>
+                    </div>
+                </td>
+            </tr>
         </table>
     </form>
-    <button class="btn btn-success" type="button">GO!</button>
+    <button class="btn btn-success" type="button" onclick="FindBestWard()">GO!</button>
 </div>
 <div class="col-md-8" id="selectedWardInfo">
     <h2>Your search results!</h2>
+    <br/>
+    <p id="searchResults"></p>
 </div>
 </div> <!-- end of first row div -->
 </div> <!-- end of main content div -->
