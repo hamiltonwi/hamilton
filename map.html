@@ -33,11 +33,11 @@
         </div>
     </nav>
 </div>
-<div class="wrapper">
+<div class="pageContainer">
       <div class="wardSelection" id="accordion">
         <div class="card" >
           <div class="card-header">
-            <a id ="ward1" class="card-link" data-toggle="collapse" href="#collapseLeftOne">
+            <a onclick="showData()" class="card-link" data-toggle="collapse" href="#collapseLeftOne">
               Ward 1
             </a>
           </div>
@@ -47,7 +47,6 @@
             </div>
           </div>
         </div>
-
         <div class="card">
           <div class="card-header">
             <a id ="ward2" class="collapsed card-link" data-toggle="collapse" href="#collapseLeftTwo">
@@ -60,7 +59,6 @@
             </div>
           </div>
         </div>
-
         <div class="card">
           <div class="card-header">
             <a id="ward3" class="collapsed card-link" data-toggle="collapse" href="#collapseLeftThree">
@@ -222,8 +220,15 @@
         <img src="images/Ward1.PNG" alt="Picture of Ward1">
       </div>
       <div class="wardStats">
+        <div class="card">
+        <div class="card-body" id="wardInfo">
+          <div id ="graph">
+          </div>
+        </div>
       </div>
+    </div>
 </div>
+
 
 <div class="footer">
   <div class="footer-copyright text-center py-3 footer-color" >
