@@ -19,3 +19,7 @@
   background: #17960a;
   padding-top: 10px;
 }
+
+#image{
+  background-image: url("images/BackgroundWelcomev2.PNG");
+}
