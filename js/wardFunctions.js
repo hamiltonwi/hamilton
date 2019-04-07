@@ -16,9 +16,9 @@ var ctr15=0;
 
 $(document).ready(function() {
 $('#graph').append('<img id="graphWard1" src="Age/Ward1.PNG" />');
-$('#graph').prepend($('<img>',{id:'graphWard1Gender',src:'Gender/Ward1.PNG'}))
-$('#graph').prepend($('<img>',{id:'graphWard1Job',src:'Job/Ward1.PNG'}))
-$('#graph').prepend($('<img>',{id:'graphWard1Commute',src:'Commute/Ward1.PNG'}))
+$('#graph').append($('<img>',{id:'graphWard1Gender',src:'Gender/Ward1.PNG'}))
+$('#graph').append($('<img>',{id:'graphWard1Job',src:'Job/Ward1.PNG'}))
+$('#graph').append($('<img>',{id:'graphWard1Commute',src:'Commute/Ward1.PNG'}))
 
 	$('.carousel').carousel({
 	  interval: 2000
@@ -29,10 +29,11 @@ function showData1() {
   $("#graph").empty();
 	ctr1++;
 	if(ctr1 % 2 == 0){
-		$('#graph').prepend($('<img>',{id:'graphWard1Age',src:'Age/Ward1.PNG'}))
-		$('#graph').prepend($('<img>',{id:'graphWard1Gender',src:'Gender/Ward1.PNG'}))
-		$('#graph').prepend($('<img>',{id:'graphWard1Job',src:'Job/Ward1.PNG'}))
-		$('#graph').prepend($('<img>',{id:'graphWard1Commute',src:'Commute/Ward1.PNG'}))
+		$('#graph').append($('<img>',{id:'graphWard1Age',src:'Age/Ward1.PNG'}))
+		$('#graph').append("<p>Test</p>");
+		$('#graph').append($('<img>'p,{id:'graphWard1Gender',src:'Gender/Ward1.PNG'}))
+		$('#graph').append($('<img>',{id:'graphWard1Job',src:'Job/Ward1.PNG'}))
+		$('#graph').apend($('<img>',{id:'graphWard1Commute',src:'Commute/Ward1.PNG'}))
 	}else{
 		$("#graph").empty();
 	}
