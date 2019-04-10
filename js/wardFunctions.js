@@ -30,8 +30,7 @@ function showData1() {
 	ctr1++;
 	if(ctr1 % 2 == 0){
 		$('#graph').append($('<img>',{id:'graphWard1Age',src:'Age/Ward1.PNG'}))
-		$('#graph').append("<p>Test</p>");
-		$('#graph').append($('<img>'p,{id:'graphWard1Gender',src:'Gender/Ward1.PNG'}))
+		$('#graph').append($('<img>',{id:'graphWard1Gender',src:'Gender/Ward1.PNG'}))
 		$('#graph').append($('<img>',{id:'graphWard1Job',src:'Job/Ward1.PNG'}))
 		$('#graph').apend($('<img>',{id:'graphWard1Commute',src:'Commute/Ward1.PNG'}))
 	}else{
