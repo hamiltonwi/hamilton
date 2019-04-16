@@ -482,7 +482,7 @@ function showData1() {
 											ctr1=0;
 											ctr2=0;
 											ctr3=0;
-											ctr4=2;
+											ctr4=0;
 											ctr5=0;
 											ctr6=0;
 											ctr7=0;
@@ -504,11 +504,11 @@ function showData1() {
 												$('#graph').append($('<img>',{id:'graphWard11Commute',src:'Commute/Ward11.PNG'}))
 												$("#graph").append(" <caption style='width:500px;'>More people drive cars on average than Hamilton.</caption>.");
 												$('#graph').append($('<img>',{id:'graphWard11Dwelling',src:'Dwelling/Ward11.PNG'}))
-												$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher average of older houses then Hamilton.</caption>.");
+												$("#graph").append(" <caption style='width:500px;'>Ward 12 has a higher average of houses created between 1991-2016.</caption>.");
 												$('#graph').append($('<img>',{id:'graphWard11Income',src:'Income/Ward11.PNG'}))
-												$("#graph").append(" <caption style='width:500px;'>Ward 1 has a 23% average of household income less than $25,000.</caption>.");
+												$("#graph").append(" <caption style='width:500px;'>Ward 11 has a higher average household income between $80,000-$150,000+.</caption>.");
 												$('#graph').append($('<img>',{id:'graphWard11Minority',src:'Minority/Ward11.PNG'}))
-												$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher average South Asian, Chinese, and African American.</caption>.");
+												$("#graph").append(" <caption style='width:500px;'>Ward 11 has a lower average minority.</caption>.");
 												$('#pictures').append($('<img>',{src:'images/Ward11.PNG'}));
 												$('#pictures').append($('<img>',{src:'attractions/Ward11Pic1.PNG'}));
 												$('#pictures').append($('<img>',{src:'attractions/Ward11Pic2.PNG'}));
@@ -525,7 +525,7 @@ function showData1() {
 												ctr1=0;
 												ctr2=0;
 												ctr3=0;
-												ctr4=2;
+												ctr4=0;
 												ctr5=0;
 												ctr6=0;
 												ctr7=0;
@@ -539,19 +539,19 @@ function showData1() {
 												ctr15=0;
 												if(ctr12 % 2 == 0){
 													$('#graph').append($('<img>',{id:'graphWard12Age',src:'Age/Ward12.PNG'}))
-													$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
+													$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 12 the highest population in age is 50-54 years old and higher average between 5-19 years old.</caption>.");
 													$('#graph').append($('<img>',{id:'graphWard12Gender',src:'Gender/Ward12.PNG'}))
-													$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher female to male ratio as well higher average population of females than Hamilton.</caption>.");
+													$("#graph").append(" <caption style='width:500px;'>Ward 12 has a higher female to male ratio as well higher average population of males than Hamilton.</caption>.");
 													$('#graph').append($('<img>',{id:'graphWard12Job',src:'Job/Ward12.PNG'}))
-													$("#graph").append(" <caption style='width:500px;'>Higher average of educational and health jobs.</caption>.");
+													$("#graph").append(" <caption style='width:500px;'>Higher average of educational, management, applied sciences, and health jobs.</caption>.");
 													$('#graph').append($('<img>',{id:'graphWard12Commute',src:'Commute/Ward12.PNG'}))
-													$("#graph").append(" <caption style='width:500px;'>More people enjoy walking, cycling, and using the public bus.</caption>.");
+													$("#graph").append(" <caption style='width:500px;'>Higher average of people drive a car than the average of Hamilton</caption>.");
 													$('#graph').append($('<img>',{id:'graphWard12Dwelling',src:'Dwelling/Ward12.PNG'}))
-													$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher average of older houses then Hamilton.</caption>.");
+													$("#graph").append(" <caption style='width:500px;'>Ward 12 has a higher average of houses created between 1981-2016.</caption>.");
 													$('#graph').append($('<img>',{id:'graphWard12Income',src:'Income/Ward12.PNG'}))
-													$("#graph").append(" <caption style='width:500px;'>Ward 1 has a 23% average of household income less than $25,000.</caption>.");
+													$("#graph").append(" <caption style='width:500px;'>Ward 12 has a higher average of household income more than $150,000.</caption>.");
 													$('#graph').append($('<img>',{id:'graphWard12Minority',src:'Minority/Ward12.PNG'}))
-													$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher average South Asian, Chinese, and African American.</caption>.");
+													$("#graph").append(" <caption style='width:500px;'>Ward 12 has a higher average South Asian, Chinese, Korean, Japanese, and Arab.</caption>.");
 													$('#pictures').append($('<img>',{src:'images/Ward12.PNG'}));
 													$('#pictures').append($('<img>',{src:'attractions/Ward12Pic1.PNG'}));
 													$('#pictures').append($('<img>',{src:'attractions/Ward12Pic2.PNG'}));
@@ -568,7 +568,7 @@ function showData1() {
 													ctr1=0;
 													ctr2=0;
 													ctr3=0;
-													ctr4=2;
+													ctr4=0;
 													ctr5=0;
 													ctr6=0;
 													ctr7=0;
@@ -582,21 +582,22 @@ function showData1() {
 													ctr15=0;
 													if(ctr13 % 2 == 0){
 														$('#graph').append($('<img>',{id:'graphWard13Age',src:'Age/Ward13.PNG'}))
-														$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
+														$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 13 the highest population in age is 20-29 years old.</caption>.");
 														$('#graph').append($('<img>',{id:'graphWard13Gender',src:'Gender/Ward13.PNG'}))
-														$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher female to male ratio as well higher average population of females than Hamilton.</caption>.");
+														$("#graph").append(" <caption style='width:500px;'>Ward 13 has a higher female to male ratio as well higher average population of females than Hamilton.</caption>.");
 														$('#graph').append($('<img>',{id:'graphWard13Job',src:'Job/Ward13.PNG'}))
 														$("#graph").append(" <caption style='width:500px;'>Higher average of educational and health jobs.</caption>.");
 														$('#graph').append($('<img>',{id:'graphWard13Commute',src:'Commute/Ward13.PNG'}))
 														$("#graph").append(" <caption style='width:500px;'>More people enjoy walking, cycling, and using the public bus.</caption>.");
 														$('#graph').append($('<img>',{id:'graphWard13Dwelling',src:'Dwelling/Ward13.PNG'}))
-														$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher average of older houses then Hamilton.</caption>.");
+														$("#graph").append(" <caption style='width:500px;'>Ward 13 has a higher average of older houses then Hamilton.</caption>.");
 														$('#graph').append($('<img>',{id:'graphWard13Income',src:'Income/Ward13.PNG'}))
-														$("#graph").append(" <caption style='width:500px;'>Ward 1 has a 23% average of household income less than $25,000.</caption>.");
+														$("#graph").append(" <caption style='width:500px;'>Ward 13 has a 23% average of household income less than $25,000.</caption>.");
 														$('#graph').append($('<img>',{id:'graphWard13Minority',src:'Minority/Ward13.PNG'}))
-														$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher average South Asian, Chinese, and African American.</caption>.");
+														$("#graph").append(" <caption style='width:500px;'>Ward 13 has a higher average South Asian, Chinese, and African American.</caption>.");
 														$('#pictures').append($('<img>',{src:'images/Ward13.PNG'}));
-
+													}
+														else{
 														$("#graph").empty();
 														$("#pictures").empty();
 													}
