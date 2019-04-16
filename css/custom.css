@@ -15,12 +15,4 @@
 .header-content{
     margin-left: 10%;
 }
-.footer-color{
-  background: #17960a;
-  padding-top: 10px;
-}
-.footer {
-   left: 0;
-   bottom: 0;
-   position: fixed;
-}
+
