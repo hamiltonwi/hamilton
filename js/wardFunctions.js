@@ -13,7 +13,6 @@ var ctr12=0;
 var ctr13=0;
 var ctr14=0;
 var ctr15=0;
-var flag1=false;
 
 
 $(document).ready(function() {
@@ -43,7 +42,22 @@ $('#pictures').append($('<img>',{src:'images/mac.PNG'}));
 function showData1() {
   $("#graph").empty();
 	$("#pictures").empty();
-ctr1++;
+	ctr1=2;
+	ctr2=0;
+	ctr3=0;
+	ctr4=0;
+	ctr5=0;
+	ctr6=0;
+	ctr7=0;
+	ctr8=0;
+	ctr9=0;
+	ctr10=0;
+	ctr11=0;
+	ctr12=0;
+	ctr13=0;
+	ctr14=0;
+	ctr15=0;
+
 	if(ctr1 % 2 == 0){
 		$('#graph').append($('<img>',{id:'graphWard1Age',src:'Age/Ward1.PNG'}))
 		$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
@@ -70,10 +84,25 @@ ctr1++;
 }
 
 	function showData2() {
+		ctr1=0;
+		ctr2=2;
+		ctr3=0;
+		ctr4=0;
+		ctr5=0;
+		ctr6=0;
+		ctr7=0;
+		ctr8=0;
+		ctr9=0;
+		ctr10=0;
+		ctr11=0;
+		ctr12=0;
+		ctr13=0;
+		ctr14=0;
+		ctr15=0;
 	  $("#graph").empty();
 		$("#pictures").empty();
-		ctr1++;
-		if(ctr1 % 2 == 0){
+
+		if(ctr2 % 2 == 0){
 			$('#graph').append($('<img>',{id:'graphWard2Age',src:'Age/Ward2.PNG'}))
 			$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 2 the highest population in age is 20-29 years old.</caption>.");
 			$('#graph').append($('<img>',{id:'graphWard2Gender',src:'Gender/Ward2.PNG'}))
@@ -95,10 +124,25 @@ ctr1++;
 	}
 
 		function showData3() {
+			ctr1=0;
+			ctr2=0;
+			ctr3=2;
+			ctr4=0;
+			ctr5=0;
+			ctr6=0;
+			ctr7=0;
+			ctr8=0;
+			ctr9=0;
+			ctr10=0;
+			ctr11=0;
+			ctr12=0;
+			ctr13=0;
+			ctr14=0;
+			ctr15=0;
 		  $("#graph").empty();
 			$("#pictures").empty();
-			ctr1++;
-			if(ctr1 % 2 == 0){
+
+			if(ctr3 % 2 == 0){
 				$('#graph').append($('<img>',{id:'graphWard3Age',src:'Age/Ward3.PNG'}))
 				$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 				$('#graph').append($('<img>',{id:'graphWard3Gender',src:'Gender/Ward3.PNG'}))
@@ -120,10 +164,25 @@ ctr1++;
 		}
 
 			function showData4() {
+				ctr1=0;
+				ctr2=0;
+				ctr3=0;
+				ctr4=2;
+				ctr5=0;
+				ctr6=0;
+				ctr7=0;
+				ctr8=0;
+				ctr9=0;
+				ctr10=0;
+				ctr11=0;
+				ctr12=0;
+				ctr13=0;
+				ctr14=0;
+				ctr15=0;
 			  $("#graph").empty();
 				$("#pictures").empty();
-				ctr1++;
-				if(ctr1 % 2 == 0){
+
+				if(ctr4 % 2 == 0){
 					$('#graph').append($('<img>',{id:'graphWard4Age',src:'Age/Ward4.PNG'}))
 					$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 					$('#graph').append($('<img>',{id:'graphWard4Gender',src:'Gender/Ward4.PNG'}))
@@ -147,8 +206,22 @@ ctr1++;
 				function showData5() {
 				  $("#graph").empty();
 					$("#pictures").empty();
-					ctr1++;
-					if(ctr1 % 2 == 0){
+					ctr1=0;
+					ctr2=0;
+					ctr3=0;
+					ctr4=0;
+					ctr5=2;
+					ctr6=0;
+					ctr7=0;
+					ctr8=0;
+					ctr9=0;
+					ctr10=0;
+					ctr11=0;
+					ctr12=0;
+					ctr13=0;
+					ctr14=0;
+					ctr15=0;
+					if(ctr5 % 2 == 0){
 						$('#graph').append($('<img>',{id:'graphWard5Age',src:'Age/Ward5.PNG'}))
 						$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 						$('#graph').append($('<img>',{id:'graphWard5Gender',src:'Gender/Ward5.PNG'}))
@@ -172,8 +245,22 @@ ctr1++;
 					function showData6() {
 					  $("#graph").empty();
 						$("#pictures").empty();
-						ctr1++;
-						if(ctr1 % 2 == 0){
+						ctr1=0;
+						ctr2=0;
+						ctr3=0;
+						ctr4=2;
+						ctr5=0;
+						ctr6=2;
+						ctr7=0;
+						ctr8=0;
+						ctr9=0;
+						ctr10=0;
+						ctr11=0;
+						ctr12=0;
+						ctr13=0;
+						ctr14=0;
+						ctr15=0;
+						if(ctr6 % 2 == 0){
 							$('#graph').append($('<img>',{id:'graphWard6Age',src:'Age/Ward6.PNG'}))
 							$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 							$('#graph').append($('<img>',{id:'graphWard6Gender',src:'Gender/Ward6.PNG'}))
@@ -197,8 +284,22 @@ ctr1++;
 						function showData7() {
 						  $("#graph").empty();
 							$("#pictures").empty();
-							ctr1++;
-							if(ctr1 % 2 == 0){
+							ctr1=0;
+							ctr2=0;
+							ctr3=0;
+							ctr4=2;
+							ctr5=0;
+							ctr6=0;
+							ctr7=2;
+							ctr8=0;
+							ctr9=0;
+							ctr10=0;
+							ctr11=0;
+							ctr12=0;
+							ctr13=0;
+							ctr14=0;
+							ctr15=0;
+							if(ctr7 % 2 == 0){
 								$('#graph').append($('<img>',{id:'graphWard7Age',src:'Age/Ward7.PNG'}))
 								$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 								$('#graph').append($('<img>',{id:'graphWard7Gender',src:'Gender/Ward7.PNG'}))
@@ -221,8 +322,22 @@ ctr1++;
 							function showData8() {
 							  $("#graph").empty();
 								$("#pictures").empty();
-								ctr1++;
-								if(ctr1 % 2 == 0){
+								ctr1=0;
+								ctr2=0;
+								ctr3=0;
+								ctr4=2;
+								ctr5=0;
+								ctr6=0;
+								ctr7=0;
+								ctr8=2;
+								ctr9=0;
+								ctr10=0;
+								ctr11=0;
+								ctr12=0;
+								ctr13=0;
+								ctr14=0;
+								ctr15=0;
+								if(ctr8 % 2 == 0){
 									$('#graph').append($('<img>',{id:'graphWard8Age',src:'Age/Ward8.PNG'}))
 									$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 									$('#graph').append($('<img>',{id:'graphWard8Gender',src:'Gender/Ward8.PNG'}))
@@ -246,8 +361,22 @@ ctr1++;
 								function showData9() {
 								  $("#graph").empty();
 									$("#pictures").empty();
-									ctr1++;
-									if(ctr1 % 2 == 0){
+									ctr1=0;
+									ctr2=0;
+									ctr3=0;
+									ctr4=2;
+									ctr5=0;
+									ctr6=0;
+									ctr7=0;
+									ctr8=0;
+									ctr9=2;
+									ctr10=0;
+									ctr11=0;
+									ctr12=0;
+									ctr13=0;
+									ctr14=0;
+									ctr15=0;
+									if(ctr9 % 2 == 0){
 										$('#graph').append($('<img>',{id:'graphWard9Age',src:'Age/Ward9.PNG'}))
 										$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 										$('#graph').append($('<img>',{id:'graphWard9Gender',src:'Gender/Ward9.PNG'}))
@@ -271,8 +400,22 @@ ctr1++;
 									function showData10() {
 									  $("#graph").empty();
 										$("#pictures").empty();
-										ctr1++;
-										if(ctr1 % 2 == 0){
+										ctr1=0;
+										ctr2=0;
+										ctr3=0;
+										ctr4=2;
+										ctr5=0;
+										ctr6=0;
+										ctr7=0;
+										ctr8=0;
+										ctr9=0;
+										ctr10=2;
+										ctr11=0;
+										ctr12=0;
+										ctr13=0;
+										ctr14=0;
+										ctr15=0;
+										if(ctr10 % 2 == 0){
 											$('#graph').append($('<img>',{id:'graphWard10Age',src:'Age/Ward10.PNG'}))
 											$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 											$('#graph').append($('<img>',{id:'graphWard10Gender',src:'Gender/Ward10.PNG'}))
@@ -296,8 +439,22 @@ ctr1++;
 										function showData11() {
 										  $("#graph").empty();
 											$("#pictures").empty();
-											ctr1++;
-											if(ctr1 % 2 == 0){
+											ctr1=0;
+											ctr2=0;
+											ctr3=0;
+											ctr4=2;
+											ctr5=0;
+											ctr6=0;
+											ctr7=0;
+											ctr8=0;
+											ctr9=0;
+											ctr10=0;
+											ctr11=2;
+											ctr12=0;
+											ctr13=0;
+											ctr14=0;
+											ctr15=0;
+											if(ctr11 % 2 == 0){
 												$('#graph').append($('<img>',{id:'graphWard11Age',src:'Age/Ward11.PNG'}))
 												$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 												$('#graph').append($('<img>',{id:'graphWard11Gender',src:'Gender/Ward11.PNG'}))
@@ -321,8 +478,22 @@ ctr1++;
 											function showData12() {
 											  $("#graph").empty();
 												$("#pictures").empty();
-												ctr1++;
-												if(ctr1 % 2 == 0){
+												ctr1=0;
+												ctr2=0;
+												ctr3=0;
+												ctr4=2;
+												ctr5=0;
+												ctr6=0;
+												ctr7=0;
+												ctr8=0;
+												ctr9=0;
+												ctr10=0;
+												ctr11=0;
+												ctr12=2;
+												ctr13=0;
+												ctr14=0;
+												ctr15=0;
+												if(ctr12 % 2 == 0){
 													$('#graph').append($('<img>',{id:'graphWard12Age',src:'Age/Ward12.PNG'}))
 													$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 													$('#graph').append($('<img>',{id:'graphWard12Gender',src:'Gender/Ward12.PNG'}))
@@ -346,8 +517,22 @@ ctr1++;
 												function showData13() {
 												  $("#graph").empty();
 													$("#pictures").empty();
-													ctr1++;
-													if(ctr1 % 2 == 0){
+													ctr1=0;
+													ctr2=0;
+													ctr3=0;
+													ctr4=2;
+													ctr5=0;
+													ctr6=0;
+													ctr7=0;
+													ctr8=0;
+													ctr9=0;
+													ctr10=0;
+													ctr11=0;
+													ctr12=0;
+													ctr13=2;
+													ctr14=0;
+													ctr15=0;
+													if(ctr13 % 2 == 0){
 														$('#graph').append($('<img>',{id:'graphWard13Age',src:'Age/Ward13.PNG'}))
 														$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 														$('#graph').append($('<img>',{id:'graphWard13Gender',src:'Gender/Ward13.PNG'}))
@@ -370,8 +555,22 @@ ctr1++;
 
 													function showData14() {
 													  $("#graph").empty();
-														ctr1++;
-														if(ctr1 % 2 == 0){
+														ctr1=0;
+														ctr2=0;
+														ctr3=0;
+														ctr4=2;
+														ctr5=0;
+														ctr6=0;
+														ctr7=0;
+														ctr8=0;
+														ctr9=0;
+														ctr10=0;
+														ctr11=0;
+														ctr12=0;
+														ctr13=0;
+														ctr14=2;
+														ctr15=0;
+														if(ctr14 % 2 == 0){
 															$('#graph').append($('<img>',{id:'graphWard14Age',src:'Age/Ward14.PNG'}))
 															$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 1 the highest population in age is 20-29 years old.</caption>.");
 															$('#graph').append($('<img>',{id:'graphWard14Gender',src:'Gender/Ward14.PNG'}))
@@ -394,8 +593,22 @@ ctr1++;
 														function showData15() {
 														  $("#graph").empty();
 															$("#pictures").empty();
-															ctr1++;
-															if(ctr1 % 2 == 0){
+															ctr1=0;
+															ctr2=0;
+															ctr3=0;
+															ctr4=2;
+															ctr5=0;
+															ctr6=0;
+															ctr7=0;
+															ctr8=0;
+															ctr9=0;
+															ctr10=0;
+															ctr11=0;
+															ctr12=0;
+															ctr13=0;
+															ctr14=0;
+															ctr15=2;
+															if(ctr15 % 2 == 0){
 																$('#graph').append($('<img>',{id:'graphWard15Age',src:'Age/Ward15.PNG'}))
 																$("#graph").append(" <caption style='width:500px;'>Specifically to Ward 15 the highest population in age is 20-29 years old.</caption>.");
 																$('#graph').append($('<img>',{id:'graphWard15Gender',src:'Gender/Ward1.PNG'}))
