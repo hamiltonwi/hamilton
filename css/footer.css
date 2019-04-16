@@ -1,0 +1,15 @@
+#page-container {
+  position: relative;
+  min-height: 90vh;
+}
+#content-wrap {
+  padding-bottom: 120px;    /* Footer height */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;            /* Footer height */
+}
