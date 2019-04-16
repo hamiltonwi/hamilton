@@ -635,7 +635,7 @@ function showData1() {
 															$("#graph").append(" <caption style='width:500px;'>Ward 1 has a 23% average of household income less than $25,000.</caption>.");
 															$('#graph').append($('<img>',{id:'graphWard14Minority',src:'Minority/Ward14.PNG'}))
 															$("#graph").append(" <caption style='width:500px;'>Ward 1 has a higher average South Asian, Chinese, and African American.</caption>.");
-															$('#pictures').append($('<img>',{src:'images/Ward14.PNG'}));));
+															$('#pictures').append($('<img>',{src:'images/Ward14.PNG'}));
 														}else{
 															$("#graph").empty();
 															$("#pictures").empty();
@@ -677,7 +677,7 @@ function showData1() {
 																$('#pictures').append($('<img>',{src:'images/Ward15.PNG'}));
 																$('#pictures').append($('<img>',{src:'attractions/Ward15Pic1.PNG'}));
 																$('#pictures').append($('<img>',{src:'attractions/Ward15Pic2.PNG'}));
-																
+
 															}else{
 																$("#graph").empty();
 																$("#pictures").empty();
